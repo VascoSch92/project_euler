@@ -7,7 +7,7 @@ class Problem8:
     DESCRIPTION = "Find the thirteen adjacent digits in the 1000-digit number (in problem_8.txt) that have the" \
                   " greatest product. What is the value of this product?"
 
-    def answer(self):
+    def answer(self) -> int:
         series = self.extract_series_from_text(path='/Users/argo/git/project_euler/files/problem_8.txt')
 
         greatest_product = float('-inf')

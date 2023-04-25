@@ -18,4 +18,4 @@ def main(problem_number: int):
 
 
 if __name__ == '__main__':
-   main(problem_number=8)
+   main(problem_number=20)
