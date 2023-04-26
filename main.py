@@ -12,10 +12,10 @@ def solve(problem_number: int):
         print(f'Problem {problem_number} is not solved yet!')
     else:
         problem = problem_class()
-        title = problem_class().TITLE
+        title = problem.TITLE
         answer = problem.answer()
         print(f'The answer of problem {problem_number} ({title}) is {answer}.')
 
 
 if __name__ == '__main__':
-    solve(problem_number=13)
+    solve(problem_number=25)

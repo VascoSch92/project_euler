@@ -21,7 +21,9 @@ __Key:__ 1984933_0cZrgC66BxEYqN5CbjK27fsbJfjRBX6W
 | 13             | Large sum                          | 5_537_376_230    | 283       |
 | 16             | Power digit sum                    | 1_366            | 1.5       |
 | 20             | Factorial digit sum                | 648              | 5         |
+| 21             | Amicable numbers                   | 31_626           | 57        |
+| 25             | 1000-digit Fibonacci number        | 4_782            | 30        |
+| 30             | Digit fifth powers                 | 443_839          | 421       |
 | 40             | Champernowne's constant            | 210              | 88        |
 | 48             | Self powers                        | 9_110_846_700    | 52        |
 | 56             | Powerful digit sum                 | 972              | 74        |
-|
