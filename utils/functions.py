@@ -1,4 +1,10 @@
 from math import isqrt
+import string
+
+
+def alphabetic_score(word: str) -> int:
+    letters = string.ascii_lowercase
+    return sum([letters.index(letter) + 1 for letter in word.lower()])
 
 
 def is_palindrome(number: int) -> bool:

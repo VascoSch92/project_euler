@@ -22,6 +22,7 @@ __Key:__ 1984933_0cZrgC66BxEYqN5CbjK27fsbJfjRBX6W
 | 16             | Power digit sum                    | 1_366            | 1.5       |
 | 20             | Factorial digit sum                | 648              | 5         |
 | 21             | Amicable numbers                   | 31_626           | 57        |
+| 22             | names scores                       | 871_198_282      | 16        |
 | 25             | 1000-digit Fibonacci number        | 4_782            | 30        |
 | 30             | Digit fifth powers                 | 443_839          | 421       |
 | 40             | Champernowne's constant            | 210              | 88        |
