@@ -19,8 +19,8 @@ class Problem8:
 
     @staticmethod
     def extract_series_from_text(path: str) -> np.ndarray:
-        with open(path) as f:
-            lines = [line.strip() for line in f.readlines()]
+        with open(path) as file_txt:
+            lines = [line.strip() for line in file_txt.readlines()]
 
             series = []
             for line in lines:

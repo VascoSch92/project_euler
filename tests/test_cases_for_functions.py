@@ -28,10 +28,12 @@ TEST_CASE_IS_A_TRIANGULAR_NUMBER = [
 ]
 
 TEST_CASE_SUM_OF_DIGITS = [
+    (0, 0),
     (1, 1),
     (10, 1),
     (222, 6),
     (3_628_800, 27),
+    (100 ** 10, 1),
 ]
 
 TEST_CASE_TRIANGULAR_NUMBER = [

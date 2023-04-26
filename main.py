@@ -4,7 +4,7 @@ from utils.timeit import timeit
 
 
 @timeit
-def main(problem_number: int):
+def solve(problem_number: int):
     try:
         problem_module = importlib.import_module(f'problems.problem_{problem_number}')
         problem_class = getattr(problem_module, f"Problem{problem_number}")
@@ -18,4 +18,4 @@ def main(problem_number: int):
 
 
 if __name__ == '__main__':
-   main(problem_number=20)
+    solve(problem_number=13)

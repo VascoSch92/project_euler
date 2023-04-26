@@ -47,7 +47,10 @@ def number_of_divisors(number: int) -> int:
 
 
 def sum_of_digits(number: int) -> int:
-    return sum([int(n) for n in str(number)])
+    if number:
+        return sum([int(n) for n in str(number).replace('0', '')])
+    else:
+        return 0
 
 
 def triangular_number(number: int) -> int:
