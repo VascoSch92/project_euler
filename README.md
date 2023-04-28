@@ -28,3 +28,6 @@ __Key:__ 1984933_0cZrgC66BxEYqN5CbjK27fsbJfjRBX6W
 | 40             | Champernowne's constant            | 210              | 88        |
 | 48             | Self powers                        | 9_110_846_700    | 52        |
 | 56             | Powerful digit sum                 | 972              | 74        |
+| 69             | Totient maximum                    | 510_510          | 4         |
+| 74             | Digit factorial chains             | 402              | 25_000    |
+| 92             | Square digit chains                | 8_581_146        | 19_500    |

@@ -18,4 +18,4 @@ def solve(problem_number: int):
 
 
 if __name__ == '__main__':
-    solve(problem_number=22)
+    solve(problem_number=69)

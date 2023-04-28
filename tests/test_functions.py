@@ -1,9 +1,15 @@
 import pytest
 
 from tests.test_cases_for_functions import TEST_CASE_IS_PRIME, TEST_CASE_IS_PALINDROME, TEST_CASE_TRIANGULAR_NUMBER, \
-    TEST_CASE_NUMBER_OF_DIVISORS, TEST_CASE_IS_A_TRIANGULAR_NUMBER, TEST_CASE_SUM_OF_DIGITS
+    TEST_CASE_NUMBER_OF_DIVISORS, TEST_CASE_IS_A_TRIANGULAR_NUMBER, TEST_CASE_SUM_OF_DIGITS, \
+    TEST_CASE_EULER_TOTIENT_FUNCTION
 from utils.functions import is_palindrome, is_prime, is_a_triangular_number, triangular_number, number_of_divisors, \
-    sum_of_digits
+    sum_of_digits, euler_totient_function
+
+
+@pytest.mark.parametrize("number, expected_result", TEST_CASE_EULER_TOTIENT_FUNCTION)
+def test_euler_totient_function(number, expected_result):
+    assert euler_totient_function(number) == expected_result
 
 
 @pytest.mark.parametrize("number, expected_result", TEST_CASE_IS_PALINDROME)

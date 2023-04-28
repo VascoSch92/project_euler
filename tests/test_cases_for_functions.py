@@ -1,3 +1,16 @@
+TEST_CASE_EULER_TOTIENT_FUNCTION = [
+    (1, 1),
+    (2, 1),
+    (3, 2),
+    (4, 2),
+    (5, 4),
+    (6, 2),
+    (7, 6),
+    (8, 4),
+    (9, 6),
+    (10, 4),
+]
+
 TEST_CASE_IS_PALINDROME = [
     (-1, False),
     (0, True),

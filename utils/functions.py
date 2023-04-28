@@ -1,10 +1,18 @@
-from math import isqrt
+from math import isqrt, gcd
 import string
 
 
 def alphabetic_score(word: str) -> int:
     letters = string.ascii_lowercase
     return sum([letters.index(letter) + 1 for letter in word.lower()])
+
+
+def euler_totient_function(number: int) -> int:
+    output = 1
+    for num in range(2, number + 1):
+        if gcd(number, num) == 1:
+            output += 1
+    return output
 
 
 def is_palindrome(number: int) -> bool:
