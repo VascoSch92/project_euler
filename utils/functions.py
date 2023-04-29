@@ -1,5 +1,6 @@
-from math import isqrt, gcd
 import string
+from math import isqrt, gcd, factorial
+from typing import List
 
 
 def alphabetic_score(word: str) -> int:
@@ -16,12 +17,14 @@ def euler_totient_function(number: int) -> int:
 
 
 def is_palindrome(number: int) -> bool:
-    """ The method return True if the input number is palindrome. Otherwise, False """
     return str(number) == str(number)[::-1]
 
 
+def is_pandigital(number: int, digits: str) -> bool:
+    return sorted(str(number)) == digits
+
+
 def is_prime(number: int) -> bool:
-    """ The method return True if the input number is prime. Otherwise, False """
     if number <= 3:
         return number > 1
     elif number % 2 == 0 or number % 3 == 0:
@@ -58,6 +61,14 @@ def number_of_divisors(number: int) -> int:
                 number_divisors += 1
 
     return number_divisors
+
+
+def sum_factorial_digits(number: int) -> int:
+    summation = 0
+    for d in str(number):
+        summation += factorial(int(d))
+
+    return summation
 
 
 def sum_of_digits(number: int) -> int:

@@ -1,5 +1,6 @@
 from typing import Set
-from math import factorial
+
+from utils.functions import sum_factorial_digits
 
 
 class Problem74:
@@ -14,19 +15,11 @@ class Problem74:
         return number_of_chains
 
     def digit_factorial_chain(self, number: int) -> Set:
-        chain = set([number])
-        number = self.sum_factorial_digits(number=number)
+        chain = {number}
+        number = sum_factorial_digits(number=number)
 
         while number not in chain:
             chain.add(number)
-            number = self.sum_factorial_digits(number=number)
+            number = sum_factorial_digits(number=number)
 
         return chain
-
-    @staticmethod
-    def sum_factorial_digits(number: int) -> int:
-        summation = 0
-        for d in str(number):
-            summation += factorial(int(d))
-
-        return summation
