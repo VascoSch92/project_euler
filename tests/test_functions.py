@@ -2,9 +2,9 @@ import pytest
 
 from tests.test_cases_for_functions import TEST_CASE_IS_PRIME, TEST_CASE_IS_PALINDROME, TEST_CASE_TRIANGULAR_NUMBER, \
     TEST_CASE_NUMBER_OF_DIVISORS, TEST_CASE_IS_A_TRIANGULAR_NUMBER, TEST_CASE_SUM_OF_DIGITS, \
-    TEST_CASE_EULER_TOTIENT_FUNCTION
+    TEST_CASE_EULER_TOTIENT_FUNCTION, TEST_CASE_MAX_PATH_SUM_TRIANGLE
 from utils.functions import is_palindrome, is_prime, is_a_triangular_number, triangular_number, number_of_divisors, \
-    sum_of_digits, euler_totient_function
+    sum_of_digits, euler_totient_function, max_path_sum_triangle
 
 
 @pytest.mark.parametrize("number, expected_result", TEST_CASE_EULER_TOTIENT_FUNCTION)
@@ -25,6 +25,11 @@ def test_is_prime(number, expected_result):
 @pytest.mark.parametrize("number, expected_result", TEST_CASE_IS_A_TRIANGULAR_NUMBER)
 def test_is_a_triangular_number(number, expected_result):
     assert is_a_triangular_number(number) == expected_result
+
+
+@pytest.mark.parametrize("triangle, expected_result", TEST_CASE_MAX_PATH_SUM_TRIANGLE)
+def test_max_sum_path_triangle(triangle, expected_result):
+    assert max_path_sum_triangle(triangle) == expected_result
 
 
 @pytest.mark.parametrize("number, expected_result", TEST_CASE_SUM_OF_DIGITS)

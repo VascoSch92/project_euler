@@ -51,6 +51,19 @@ def is_a_triangular_number(number: int) -> bool:
     return False
 
 
+def max_path_sum_triangle(triangle: List[List[int]]) -> int:
+    assert [len(row) for row in triangle] == [j for j in range(1, len(triangle) + 1)]
+
+    depth_triangle = len(triangle)
+    for idx_level in range(depth_triangle - 2, -1, -1):
+        for idx in range(len(triangle[idx_level])):
+            triangle[idx_level][idx] = max(
+                triangle[idx_level][idx] + triangle[idx_level + 1][idx],
+                triangle[idx_level][idx] + triangle[idx_level + 1][idx + 1]
+            )
+    return triangle[0][0]
+
+
 def number_of_divisors(number: int) -> int:
     number_divisors = 0
 

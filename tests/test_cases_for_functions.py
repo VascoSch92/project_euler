@@ -59,6 +59,10 @@ TEST_CASE_TRIANGULAR_NUMBER = [
     (7, 28),
 ]
 
+TEST_CASE_MAX_PATH_SUM_TRIANGLE = [
+    ([[3], [7, 4], [2, 4, 6], [8, 5, 9, 3]], 23)
+]
+
 TEST_CASE_NUMBER_OF_DIVISORS = [
     (1, 1),
     (3, 2),

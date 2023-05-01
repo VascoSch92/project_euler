@@ -7,7 +7,7 @@ class Problem13:
                   ' numbers (problem_13.txt).'
 
     def answer(self) -> int:
-        number = self.extract_number_from_text(path='/Users/argo/git/project_euler/files/problem_13.txt')
+        number = self.extract_number_from_text(path='files/problem_13.txt')
         large_sum = np.sum(number)
         return str(large_sum)[:10]
 
