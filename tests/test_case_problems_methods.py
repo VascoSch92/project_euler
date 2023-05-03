@@ -4,6 +4,12 @@ TEST_CASE_PROBLEM_21_D = [
     (284, 220),
 ]
 
+TEST_CASE_PROBLEM_26_LENGTH_RECURRING_CYCLE = [
+    ([1, 2], 1),
+    ([1, 3], 1),
+    ([1, 7], 6),
+]
+
 TEST_CASE_PROBLEM_820_D = [
     ([7, 1], 0),
     ([7, 3], 3),
