@@ -12,7 +12,7 @@ class Problem22:
                   "What is the total of all the name scores in the file?"
 
     def answer(self) -> int:
-        names = self.extract_names_from_text(path='/Users/argo/git/project_euler/files/problem_22.txt')
+        names = self.extract_names_from_text(path='files/problem_22.txt')
 
         total_name_scores = 0
         for position, name in enumerate(names, start=1):

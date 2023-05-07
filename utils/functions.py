@@ -9,6 +9,8 @@ def alphabetic_score(word: str) -> int:
 
 
 def euler_totient_function(number: int) -> int:
+    if number == 1:
+        return 0
     output = 1
     for num in range(2, number + 1):
         if gcd(number, num) == 1:
@@ -37,18 +39,18 @@ def is_prime(number: int) -> bool:
 
 
 def is_a_triangular_number(number: int) -> bool:
-    if number == 0 or number == 1:
-        return True
+    index = (- 1 + (1 + 8 * number) ** (1 / 2)) / 2
+    return index - int(index) == 0
 
-    triangular_sum = 0
 
-    for n in range(1, number // 2 + 2):
-        triangular_sum += n
+def is_a_pentagonal_number(number: int) -> bool:
+    index = (1 + (1 + 24 * number) ** (1 / 2)) / 6
+    return index - int(index) == 0
 
-        if triangular_sum == number:
-            return True
 
-    return False
+def is_a_hexagonal_number(number: int) -> bool:
+    index = (1 + (1 + 8 * number) ** (1 / 2)) / 4
+    return index - int(index) == 0
 
 
 def max_path_sum_triangle(triangle: List[List[int]]) -> int:
