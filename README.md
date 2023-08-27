@@ -56,3 +56,4 @@ __Key:__ 1984933_0cZrgC66BxEYqN5CbjK27fsbJfjRBX6W
 | 74             | Digit factorial chains                | 402             | 25_000    |
 | 92             | Square digit chains                   | 8_581_146       | 19_500    |
 | 99             | Largest Exponential                   | 709             | 6         |
+| 145            | Reversible Numbers                    | 608_720         | 3         |
