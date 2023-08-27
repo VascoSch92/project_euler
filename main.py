@@ -13,10 +13,10 @@ def solve(problem_number: int):
     else:
         problem = problem_class()
         title = problem.TITLE
-        answer = problem.answer()
+        answer = problem.answer
         print(f'The answer of problem {problem_number} ({title}) is {answer}.')
 
 
 if __name__ == '__main__':
-    problem_number = 99
+    problem_number = 145
     solve(problem_number=problem_number)
