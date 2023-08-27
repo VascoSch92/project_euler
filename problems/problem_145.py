@@ -5,9 +5,6 @@ class Problem145:
                   "Leading zeroes are not allowed in either  or . There are  reversible numbers below one-thousand. " \
                   "How many reversible numbers are there below one-billion ()?"
 
-    digits = range(10)
-    digits_without_zero = range(1, 10)
-
     @property
     def answer(self) -> int:
         """
