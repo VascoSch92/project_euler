@@ -57,3 +57,4 @@ __Key:__ 1984933_0cZrgC66BxEYqN5CbjK27fsbJfjRBX6W
 | 92             | Square digit chains                   | 8_581_146       | 19_500    |
 | 99             | Largest Exponential                   | 709             | 6         |
 | 145            | Reversible Numbers                    | 608_720         | 3         |
+| 836            | A Bold proposition                    | aprilfoolsjoke  | 0.24      |
