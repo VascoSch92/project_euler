@@ -55,6 +55,7 @@ __Key:__ 1984933_0cZrgC66BxEYqN5CbjK27fsbJfjRBX6W
 | 71             | Ordered fractions                     | 428_570         | 3         |
 | 74             | Digit factorial chains                | 402             | 25_000    |
 | 92             | Square digit chains                   | 8_581_146       | 19_500    |
+| 97             | Large Non-Marsenne Prime              | 8739992577      | 879       |
 | 99             | Largest Exponential                   | 709             | 6         |
 | 145            | Reversible Numbers                    | 608_720         | 3         |
 | 836            | A Bold proposition                    | aprilfoolsjoke  | 0.24      |
