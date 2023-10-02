@@ -47,9 +47,10 @@ __Key:__ 1984933_0cZrgC66BxEYqN5CbjK27fsbJfjRBX6W
 | 44             | Pentagon numbers                      | 5_482_660       | 1_475     |
 | 45             | Triangular, pentagonal, and hexagonal | 1_533_776_805   | 37        |
 | 48             | Self powers                           | 9_110_846_700   | 52        |
+| 52             | Permuted Multiples                    | 142857          | 103       |
 | 53             | Combinatoric Selections               | 4075            | 8         |
 | 56             | Powerful digit sum                    | 972             | 74        |
-| 62             | Cubic Permutations                    | 127035954683    | 13        |
+| 62             | Cubic Permutations                    | 12_703_5954_683 | 13        |
 | 63             | Powerful digit counts                 | 49              | 3         |
 | 65             | Convergents of e                      | 272             | 7         |
 | 67             | Maximum path sum II                   | 7_273           | 11        |
@@ -57,7 +58,7 @@ __Key:__ 1984933_0cZrgC66BxEYqN5CbjK27fsbJfjRBX6W
 | 71             | Ordered fractions                     | 428_570         | 3         |
 | 74             | Digit factorial chains                | 402             | 25_000    |
 | 92             | Square digit chains                   | 8_581_146       | 19_500    |
-| 97             | Large Non-Marsenne Prime              | 8739992577      | 879       |
+| 97             | Large Non-Marsenne Prime              | 8_739_992_577   | 879       |
 | 99             | Largest Exponential                   | 709             | 6         |
 | 145            | Reversible Numbers                    | 608_720         | 3         |
 | 836            | A Bold proposition                    | aprilfoolsjoke  | 0.24      |
