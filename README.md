@@ -48,6 +48,7 @@ __Key:__ 1984933_0cZrgC66BxEYqN5CbjK27fsbJfjRBX6W
 | 45             | Triangular, pentagonal, and hexagonal | 1_533_776_805   | 37        |
 | 48             | Self powers                           | 9_110_846_700   | 52        |
 | 56             | Powerful digit sum                    | 972             | 74        |
+| 62             | Cubic Permutations                    | 127035954683    | 13        |
 | 63             | Powerful digit counts                 | 49              | 3         |
 | 65             | Convergents of e                      | 272             | 7         |
 | 67             | Maximum path sum II                   | 7_273           | 11        |
