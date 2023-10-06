@@ -23,6 +23,7 @@ __Key:__ 1984933_0cZrgC66BxEYqN5CbjK27fsbJfjRBX6W
 | 14             | Longest Collatz sequence              | 837_799         | 1_692     |
 | 15             | Lattice paths                         | 137_846_528_820 | 2         |
 | 16             | Power digit sum                       | 1_366           | 1.5       |
+| 17             | Number Letter Counts                  | 21_124          | 0.5       |
 | 18             | Maximum path sum I                    | 1_074           | 6         |
 | 20             | Factorial digit sum                   | 648             | 5         |
 | 21             | Amicable numbers                      | 31_626          | 57        |
