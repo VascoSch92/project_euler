@@ -46,6 +46,6 @@ def test_problem_820_d(input, expected_result):
     assert Problem820().d(n=input[0], x=input[1]) == expected_result
 
 
-@pytest.mark.parametrize("n, expected_result", TEST_CASE_PROBLEM_820_S)
+@pytest.mark.parametrize("number, expected_result", TEST_CASE_PROBLEM_820_S)
 def test_problem_820_s(n, expected_result):
     assert Problem820().s(n=n) == expected_result

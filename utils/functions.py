@@ -95,3 +95,7 @@ def sum_of_digits(number: int) -> int:
 
 def triangular_number(number: int) -> int:
     return number * (number + 1) // 2
+
+
+def reverse_and_sum(number: int) -> int:
+    return int(number) + int(str(number)[::-1])
