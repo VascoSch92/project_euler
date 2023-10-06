@@ -3,7 +3,7 @@ from utils.functions import sum_factorial_digits
 
 class Problem34:
     TITLE = 'Digit factorials'
-    DESCRIPTION = 'Find the sum of all numbers which are equal to the sum of the factorial of their digits.'
+    DESCRIPTION = 'https://projecteuler.net/problem=34'
 
     def answer(self) -> int:
         sum_numbers = 0

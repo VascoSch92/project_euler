@@ -4,9 +4,7 @@ from itertools import permutations
 
 class Problem41:
     TITLE = 'Pandigital prime'
-    DESCRIPTION = "We shall say that an n-digit number is pandigital if it makes use of all the digits 1 \n " \
-                  "to n exactly once. For example, 2143 is a 4-digit pandigital and is also prime. \n  " \
-                  "What is the largest n-digit pandigital prime that exists?"
+    DESCRIPTION = 'https://projecteuler.net/problem=41'
 
     def answer(self) -> int:
 

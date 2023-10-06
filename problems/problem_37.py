@@ -3,11 +3,7 @@ from utils.functions import is_prime
 
 class Problem37:
     TITLE = 'Truncatable primes'
-    DESCRIPTION = "The number 3797 has an interesting property. Being prime itself, it is possible to continuously\n" \
-                  " remove digits from left to right, and remain prime at each stage: 3797, 797, 97, and 7. \n " \
-                  "Similarly we can work from right to left: 3797, 379, 37, and 3.Find the sum of the only eleven \n" \
-                  " primes that are both truncatable from left to right and right to left. \n" \
-                  "NOTE: 2, 3, 5, and 7 are not considered to be truncatable primes."
+    DESCRIPTION = 'https://projecteuler.net/problem=37'
 
     def answer(self) -> int:
         sum_of_truncable_primes = 0

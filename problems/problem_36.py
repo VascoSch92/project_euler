@@ -3,9 +3,7 @@ from utils.functions import is_palindrome
 
 class Problem36:
     TITLE = 'Double-base palindromes'
-    DESCRIPTION = "The decimal number, 585 = 1001001001 (binary), is palindromic in both bases. \n" \
-                  "Find the sum of all numbers, less than one million, which are palindromic in base 10 and base 2.\n" \
-                  "(Please note that the palindromic number, in either base, may not include leading zeros.)"
+    DESCRIPTION = 'https://projecteuler.net/problem=36'
 
     def answer(self) -> int:
         total = 0

@@ -1,6 +1,6 @@
 class Problem25:
     TITLE = '1000-digit Fibonacci number'
-    DESCRIPTION = 'What is the index of the first term in the Fibonacci sequence to contain 1000 digits?'
+    DESCRIPTION = 'https://projecteuler.net/problem=25'
 
     def answer(self) -> int:
         fib_n_1, fib_n = 1, 1

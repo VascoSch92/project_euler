@@ -3,8 +3,7 @@ from utils.functions import is_prime
 
 class Problem27:
     TITLE = 'Quadratic primes'
-    DESCRIPTION = 'Find the product of the coefficients, a and b, for the quadratic expression n**2 + a*n + b \n' \
-                  'that produces the maximum number of primes for consecutive values of n, starting with n= 0.'
+    DESCRIPTION = 'https://projecteuler.net/problem=27'
 
     def answer(self) -> int:
         product_coeff, max_number_of_primes = float('-inf'), float('-inf')

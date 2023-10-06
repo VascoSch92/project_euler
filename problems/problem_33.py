@@ -1,15 +1,9 @@
-import numpy as np
 from math import gcd
 
 
 class Problem33:
     TITLE = 'Digit cancelling fractions'
-    DESCRIPTION = "The fraction 49/98 is a curious fraction, as an inexperienced mathematician in attempting to\n " \
-                  " simplify it may incorrectly believe that 49/98 = 4/8, which is correct, is obtained by \n " \
-                  " cancelling the 9s. We shall consider fractions like, 30/50 = 3/5, to be trivial examples.\n" \
-                  " There are exactly four non-trivial examples of this type of fraction, less than one in value,\n" \
-                  " and containing two digits in the numerator and denominator. If the product of these four\n" \
-                  " fractions is given in its lowest common terms, find the value of the denominator."
+    DESCRIPTION = 'https://projecteuler.net/problem=33'
 
     def answer(self) -> int:
         number_of_examples = 0

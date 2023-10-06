@@ -3,8 +3,7 @@ from utils.functions import is_prime
 
 class Problem10:
     TITLE = 'Summation of primes'
-    DESCRIPTION = "The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17. \n " \
-                  "Find the sum of all the primes below two million."
+    DESCRIPTION = 'https://projecteuler.net/problem=10'
 
     def answer(self) -> int:
         summation_of_primes = 2

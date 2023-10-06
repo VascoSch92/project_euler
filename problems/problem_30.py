@@ -1,6 +1,6 @@
 class Problem30:
     TITLE = 'Digit fifth powers'
-    DESCRIPTION = "Find the sum of all the numbers that can be written as the sum of fifth powers of their digits."
+    DESCRIPTION = 'https://projecteuler.net/problem=30'
 
     def answer(self) -> int:
         summation = 0

@@ -4,12 +4,7 @@ from math import log
 
 class Problem99:
     TITLE = 'Largest Exponential'
-    DESCRIPTION = " Comparing two numbers written in index form like 2**11 and 3**7  is not difficult, " \
-                  "as any calculator would confirm that 2**11 < 3**7. " \
-                  "However, confirming that 632328**518061 > 519432**525806  would be much more difficult, " \
-                  "as both numbers contain over three million digits. Using base_exp.txt, " \
-                  "a 22K text file containing one thousand lines with a base/exponent pair on each line, " \
-                  "determine which line number has the greatest numerical value."
+    DESCRIPTION = 'https://projecteuler.net/problem=99'
 
     def answer(self) -> int:
         base_exponent_pairs = self.extract_bases_and_exponents_from_text_file(

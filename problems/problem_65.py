@@ -3,7 +3,7 @@ from utils.functions import sum_of_digits
 
 class Problem65:
     TITLE = 'Convergents of e'
-    DESCRIPTION = "Find the sum of digits in the numerator of the 100th convergent of the continued fraction for e."
+    DESCRIPTION = 'https://projecteuler.net/problem=65'
 
     def answer(self) -> int:
         numerator_i_1 = 1

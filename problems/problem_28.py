@@ -3,7 +3,7 @@ from typing import List
 
 class Problem28:
     TITLE = 'Number spiral diagonals'
-    DESCRIPTION = "What is the sum of the numbers on the diagonals in a 1001 by 1001 spiral formed in the same way?"
+    DESCRIPTION = 'https://projecteuler.net/problem=28'
 
     def answer(self) -> int:
         return sum(self.diagonal_sequence(length_side=1001))

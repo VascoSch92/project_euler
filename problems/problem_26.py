@@ -1,7 +1,6 @@
 class Problem26:
     TITLE = 'Reciprocal cycles'
-    DESCRIPTION = "Find the value of d < 1000 for which 1/d contains the longest recurring cycle in \n " \
-                  "its decimal fraction part."
+    DESCRIPTION = 'https://projecteuler.net/problem=26'
 
     def answer(self) -> int:
         max_recurring_cycle_length = float('-inf')

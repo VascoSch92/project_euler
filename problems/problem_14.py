@@ -1,6 +1,6 @@
 class Problem14:
     TITLE = 'Longest Collatz sequence'
-    DESCRIPTION = 'Which starting number, under one million, produces the longest chain?'
+    DESCRIPTION = 'https://projecteuler.net/problem=14'
 
     map_starting_number_and_length = {}
 

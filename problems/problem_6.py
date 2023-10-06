@@ -3,8 +3,7 @@ import numpy as np
 
 class Problem6:
     TITLE = 'Sum square difference'
-    DESCRIPTION = "Find the difference between the sum of the squares of the first one hundred natural numbers \n"\
-                  "and the square of the sum."
+    DESCRIPTION = 'https://projecteuler.net/problem=6'
 
     def answer(self) -> int:
         numbers = np.array(range(1, 101))

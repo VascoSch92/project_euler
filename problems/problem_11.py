@@ -3,8 +3,7 @@ import numpy as np
 
 class Problem11:
     TITLE = 'Largest product in a grid'
-    DESCRIPTION = "What is the greatest product of four adjacent numbers in the same direction \n" \
-                  " (up, down, left, right, or diagonally) in the 20×20 grid (problem11.txt)?"
+    DESCRIPTION = 'https://projecteuler.net/problem=11'
 
     def answer(self) -> int:
         grid = self.read_grid_from_txt(path='files/problem_11.txt')

@@ -1,10 +1,6 @@
 class Problem836:
     TITLE = 'A Bold Proposition'
-    DESCRIPTION = "Let A be an affine plane over a radically integral local field F with residual characteristic p." \
-                  "We consider an open oriented line section U of A with normalized Haar measure m. " \
-                  "Define f(m, p) as the maximal possible discriminant of the Jacobian associated to the orthogonal " \
-                  "kernel embedding of U into A. Find f(20230401, 57). " \
-                  "Give as your answer the concatenation of the first letters of each bolded word."
+    DESCRIPTION = 'https://projecteuler.net/problem=836'
 
     def answer(self) -> str:
         return 'aprilfoolsjoke'

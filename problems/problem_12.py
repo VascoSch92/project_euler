@@ -3,7 +3,7 @@ from utils.functions import triangular_number, number_of_divisors
 
 class Problem12:
     TITLE = 'Highly divisible triangular number'
-    DESCRIPTION = 'What is the value of the first triangle number to have over five hundred divisors?'
+    DESCRIPTION = 'https://projecteuler.net/problem=12'
 
     def answer(self) -> int:
         t_n = triangular_number(n := 500)

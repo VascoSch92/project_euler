@@ -3,17 +3,7 @@ from math import isqrt
 
 class Problem23:
     TITLE = 'Non-abundant sums'
-    DESCRIPTION = "A perfect number is a number for which the sum of its proper divisors is exactly equal \n " \
-                  "to the number. For example, the sum of the proper divisors of 28 is 28,\n " \
-                  "which means that 28 is a perfect number. A number n is called deficient if the sum of its proper\n " \
-                  "divisors is less than n and it is called abundant if this sum exceeds n. As 12 is the smallest\n " \
-                  "abundant number, 1 + 2 + 3 + 4 + 6 = 16, the smallest number that can be written as the sum of \n " \
-                  "two abundant numbers is 24. By mathematical analysis, it can be shown that all integers greater\n " \
-                  "than 28123 can be written as the sum of two abundant numbers. However, this upper limit cannot\n " \
-                  "be reduced any further by analysis even though it is known that the greatest number that cannot\n " \
-                  "be expressed as the sum of two abundant numbers is less than this limit. \n" \
-                  "Find the sum of all the positive integers which cannot be written as the sum of two \n " \
-                  "abundant numbers."
+    DESCRIPTION = 'https://projecteuler.net/problem=23'
 
     def answer(self) -> int:
         abundant_numbers = self.list_abundant_numbers(start=12, stop=28_124)

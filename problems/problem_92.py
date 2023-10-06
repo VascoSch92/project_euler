@@ -1,9 +1,6 @@
 class Problem92:
     TITLE = 'Square digit chains'
-    DESCRIPTION = "A number chain is created by continuously adding the square of the digits in a number \n" \
-                  "to form a new number until it has been seen before. Any chain that arrives at 1 or 89 \n" \
-                  " will become stuck in an endless loop. How many starting numbers below ten million will\n" \
-                  " arrive at 89?"
+    DESCRIPTION = 'https://projecteuler.net/problem=92'
 
     def answer(self) -> int:
         numbers_ending_with_1 = set()

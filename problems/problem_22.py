@@ -4,12 +4,7 @@ from utils.functions import alphabetic_score
 
 class Problem22:
     TITLE = 'Names scores'
-    DESCRIPTION = "Using problem_22.txt, a 46K text file containing over five-thousand first names, begin by \n " \
-                  "sorting it into alphabetical order. Then working out the alphabetical value for each name, \n" \
-                  "multiply this value by its alphabetical position in the list to obtain a name score. For example,\n" \
-                  " when the list is sorted into alphabetical order, COLIN, which is worth 3 + 15 + 12 + 9 + 14 = 53,\n" \
-                  " is the 938th name in the list. So, COLIN would obtain a score of 938 × 53 = 49714.\n" \
-                  "What is the total of all the name scores in the file?"
+    DESCRIPTION = 'https://projecteuler.net/problem=22'
 
     def answer(self) -> int:
         names = self.extract_names_from_text(path='files/problem_22.txt')

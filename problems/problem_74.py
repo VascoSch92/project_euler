@@ -5,6 +5,7 @@ from utils.functions import sum_factorial_digits
 
 class Problem74:
     TITLE = 'Digit factorial chains'
+    DESCRIPTION = 'https://projecteuler.net/problem=74'
 
     def answer(self) -> int:
         number_of_chains = 0

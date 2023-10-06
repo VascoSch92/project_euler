@@ -3,11 +3,9 @@ from math import sqrt
 
 class Problem39:
     TITLE = 'Integer right triangles'
-    DESCRIPTION = "If p is the perimeter of a right angle triangle with integral length sides, {a,b,c}, \n" \
-                  "there are exactly three solutions for p = 120. {20,48,52}, {24,45,51}, {30,40,50} For which \n" \
-                  "value of p ≤ 1000, is the number of solutions maximised?"
+    DESCRIPTION = 'https://projecteuler.net/problem=39'
 
-    def answer(self) -> int:
+    def answer(self) -> float:
         solutions = {}
 
         for a in range(500):

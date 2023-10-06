@@ -1,7 +1,6 @@
 class Problem57:
     TITLE = 'Square root convergents'
-    DESCRIPTION = "In the first one-thousand expansions of sqrt(2) via continuous fractions, how many \n" \
-                  " fractions contain a numerator with more digits than the denominator?"
+    DESCRIPTION = 'https://projecteuler.net/problem=57'
 
     def answer(self) -> int:
         number_of_fractions = 0

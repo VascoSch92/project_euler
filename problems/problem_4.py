@@ -3,9 +3,7 @@ from utils.functions import is_palindrome
 
 class Problem4:
     TITLE = 'Largest palindrome product'
-    DESCRIPTION = "A palindromic number reads the same both ways. The largest palindrome made from the product of \n " \
-               " two 2-digit numbers is 9009 = 91 × 99. \n " \
-               "Find the largest palindrome made from the product of two 3-digit numbers."
+    DESCRIPTION = 'https://projecteuler.net/problem=4'
 
     def answer(self) -> int:
         answer = float('-inf')

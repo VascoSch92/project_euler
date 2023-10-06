@@ -3,10 +3,9 @@ import numpy as np
 
 class Problem13:
     TITLE = 'Large sum'
-    DESCRIPTION = 'Work out the first ten digits of the sum of the following one-hundred 50-digit \n' \
-                  ' numbers (problem_13.txt).'
+    DESCRIPTION = 'https://projecteuler.net/problem=13'
 
-    def answer(self) -> int:
+    def answer(self) -> str:
         number = self.extract_number_from_text(path='files/problem_13.txt')
         large_sum = np.sum(number)
         return str(large_sum)[:10]

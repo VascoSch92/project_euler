@@ -4,8 +4,7 @@ from utils.functions import max_path_sum_triangle
 
 class Problem67:
     TITLE = 'Maximum path sum II'
-    DESCRIPTION = 'Find the maximum total from top to bottom in problem_67.txt , a 15K text file containing \n' \
-                  ' a triangle with one-hundred rows.'
+    DESCRIPTION = 'https://projecteuler.net/problem=67'
 
     def answer(self) -> int:
         triangle = self.read_triangle_from_txt(path='files/problem_67.txt')
