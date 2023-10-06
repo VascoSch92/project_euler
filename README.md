@@ -49,6 +49,7 @@ __Key:__ 1984933_0cZrgC66BxEYqN5CbjK27fsbJfjRBX6W
 | 48             | Self powers                           | 9_110_846_700   | 52        |
 | 52             | Permuted Multiples                    | 142857          | 103       |
 | 53             | Combinatoric Selections               | 4075            | 8         |
+| 55             | Lychrel Numbers                       | 249             | 46        |
 | 56             | Powerful digit sum                    | 972             | 74        |
 | 62             | Cubic Permutations                    | 12_703_5954_683 | 13        |
 | 63             | Powerful digit counts                 | 49              | 3         |
