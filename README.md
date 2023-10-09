@@ -60,6 +60,7 @@ __Key:__ 1984933_0cZrgC66BxEYqN5CbjK27fsbJfjRBX6W
 | 69             | Totient maximum                       | 510_510         | 4         |
 | 71             | Ordered fractions                     | 428_570         | 3         |
 | 74             | Digit factorial chains                | 402             | 25_000    |
+| 76             | Counting Summations                   | 190_569_291     | 10        |
 | 92             | Square digit chains                   | 8_581_146       | 19_500    |
 | 97             | Large Non-Marsenne Prime              | 8_739_992_577   | 879       |
 | 99             | Largest Exponential                   | 709             | 6         |
