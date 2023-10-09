@@ -36,6 +36,7 @@ __Key:__ 1984933_0cZrgC66BxEYqN5CbjK27fsbJfjRBX6W
 | 28             | Number spiral diagonals               | 669_171_001     | 9         |
 | 29             | Distinct powers                       | 9_183           | 6         |
 | 30             | Digit fifth powers                    | 443_839         | 421       |
+| 31             | Coin Sums                             | 73_682          | 4         |
 | 33             | Digit cancelling fractions            | 100             | 277       |
 | 34             | Digit factorials                      | 40_730          | 535       |
 | 35             | Circular primes                       | 55              | 1_700     |
