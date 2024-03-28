@@ -56,7 +56,33 @@ fn solve_problem(problem_number: u32){
                 solution,
                 elapsed,
             );
-        }
+        },
+        5 => {
+            let now = Instant::now();
+            let solution = problems::problem_5::problem_5::answer();
+            let elapsed = now.elapsed();
+
+            pretty_print_solution(
+                problems::problem_5::problem_5::TITLE,
+                problems::problem_5::problem_5::DESCRIPTION,
+                problem_number,
+                solution,
+                elapsed,
+            );
+        },
+        6 => {
+            let now = Instant::now();
+            let solution = problems::problem_6::problem_6::answer();
+            let elapsed = now.elapsed();
+
+            pretty_print_solution(
+                problems::problem_6::problem_6::TITLE,
+                problems::problem_6::problem_6::DESCRIPTION,
+                problem_number,
+                solution,
+                elapsed,
+            );
+        },
         _ => panic!("Problem {} is not solved yet", problem_number),
     };
 }
