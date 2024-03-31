@@ -3,7 +3,8 @@ use std::time::Instant;
 use std::time::Duration;
 
 mod problems;
-
+mod tests;
+mod utils;
 
 fn main() {
     let command: String = get_command();
@@ -80,6 +81,19 @@ fn solve_problem(problem_number: u32){
                 problems::problem_6::problem_6::DESCRIPTION,
                 problem_number,
                 solution,
+                elapsed,
+            );
+        },
+        12 => {
+            let now = Instant::now();
+            let solution = problems::problem_12::problem_12::answer();
+            let elapsed = now.elapsed();
+
+            pretty_print_solution(
+                problems::problem_12::problem_12::TITLE,
+                problems::problem_12::problem_12::DESCRIPTION,
+                problem_number,
+                solution as i32,
                 elapsed,
             );
         },
