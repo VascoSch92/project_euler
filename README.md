@@ -66,7 +66,7 @@ Time: 2.13µs
 | 9              | Special Pythagorean triplet           | 31_875_000      | 92ms        |
 | 10             | Summation of primes                   | 142_913_828_922 | 2_975ms     |  
 | 11             | Largest product in a grid             | 70_600_674      | 300ms       |
-| 12             | Highly divisible triangular number    | 76_576_500      | 3_000ms     |
+| 12             | Highly divisible triangular number    | 76_576_500      | 3_000ms     | 301.85ms  |
 | 13             | Large sum                             | 5_537_376_230   | 283ms       |
 | 14             | Longest Collatz sequence              | 837_799         | 1_692ms     |
 | 15             | Lattice paths                         | 137_846_528_820 | 2ms         |
