@@ -94,7 +94,7 @@ Time: 2.13µs
 | 40             | Champernowne's constant               | 210             | 88ms        |
 | 41             | Pandigital prime                      | 7_652_413       | 32ms        |
 | 42             | Coded triangle numbers                | 162             | 9ms         |
-| 44             | Pentagon numbers                      | 5_482_660       | 1_475ms     |
+| 44             | Pentagon numbers                      | 5_482_660       | 1_475ms     | 11.36ms   |
 | 45             | Triangular, pentagonal, and hexagonal | 1_533_776_805   | 37ms        |
 | 48             | Self powers                           | 9_110_846_700   | 52ms        |
 | 52             | Permuted Multiples                    | 142857          | 103ms       |

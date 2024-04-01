@@ -1,5 +1,15 @@
 pub mod functions_u32 {
 
+    pub fn is_pentagonal(number: &u32) -> bool {
+        let n: f32 = *number as f32;
+        let index: f32 = (1. + (1. + 24. * n).sqrt()) / 6.;
+        if index == index.floor() {
+            true
+        } else {
+            false
+        }
+    }
+
     pub fn is_prime(n: u32) -> bool {
         if n <= 3 {
             return true;
@@ -28,6 +38,10 @@ pub mod functions_u32 {
             }
         }
         number_of_divisors
+    }
+
+    pub fn pentagonal_number(n:u32) -> u32 {
+        n * (3*n -1) / 2
     }
 
     pub fn triangular_number(n:u32) -> u32 {

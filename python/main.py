@@ -41,6 +41,7 @@ def solve(problem_number: int) -> None:
             f"Time: {execution_time}ms"
         )
 
+
 def _solve(problem) -> Tuple[float, Union[int, str]]:
     start_time = time.time()
     solution = problem.answer()
