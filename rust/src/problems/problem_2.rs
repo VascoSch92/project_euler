@@ -20,4 +20,17 @@ pub mod problem_2 {
         }
         sum_even_valued_terms
     }
+
+    pub fn pretty_print_solution() {
+        use std::time::Instant;
+
+        let now = Instant::now();
+        let solution = answer();
+        let elapsed = now.elapsed();
+
+        println!("Problem {} - {}", 2, crate::problems::problem_2::problem_2::TITLE);
+        println!("Description: {}", crate::problems::problem_2::problem_2::DESCRIPTION);
+        println!("Solution: {}", solution);
+        println!("Time: {:.2?}", elapsed);
+    }
 }

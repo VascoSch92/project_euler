@@ -12,4 +12,17 @@ pub mod problem_6 {
         }
         sum.pow(2) - sum_of_the_squares
     }
+
+    pub fn pretty_print_solution() {
+        use std::time::Instant;
+
+        let now = Instant::now();
+        let solution = answer();
+        let elapsed = now.elapsed();
+
+        println!("Problem {} - {}", 6, crate::problems::problem_6::problem_6::TITLE);
+        println!("Description: {}", crate::problems::problem_6::problem_6::DESCRIPTION);
+        println!("Solution: {}", solution);
+        println!("Time: {:.2?}", elapsed);
+    }
 }

@@ -1,4 +1,4 @@
-pub mod functions {
+pub mod functions_u32 {
 
     pub fn is_prime(n: u32) -> bool {
         if n <= 3 {
@@ -12,7 +12,7 @@ pub mod functions {
                 return false;
             }
         };
-        return true;
+        true
     }
 
     pub fn number_of_divisors(n: &u32) -> u32 {
@@ -33,4 +33,23 @@ pub mod functions {
     pub fn triangular_number(n:u32) -> u32 {
         n * (n + 1) / 2
     }
+}
+
+pub mod functions_u64 {
+
+    pub fn is_prime(n: u64) -> bool {
+        if n <= 3 {
+            return true;
+        };
+        if n % 2 == 0 || n % 3 == 0 {
+            return false;
+        };
+        for divisor in (5..=((n as f64).sqrt() as u64) + 1).step_by(2){
+            if n % divisor == 0 || n % (divisor + 2) == 0 {
+                return false;
+            }
+        };
+        true
+    }
+
 }

@@ -11,4 +11,17 @@ pub mod problem_1 {
         }
         sum_of_multiples
     }
+
+    pub fn pretty_print_solution() {
+        use std::time::Instant;
+
+        let now = Instant::now();
+        let solution = answer();
+        let elapsed = now.elapsed();
+
+        println!("Problem {} - {}", 1, crate::problems::problem_1::problem_1::TITLE);
+        println!("Description: {}", crate::problems::problem_1::problem_1::DESCRIPTION);
+        println!("Solution: {}", solution);
+        println!("Time: {:.2?}", elapsed);
+    }
 }

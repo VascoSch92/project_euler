@@ -1,6 +1,4 @@
 use std::env;
-use std::time::Instant;
-use std::time::Duration;
 
 mod problems;
 mod tests;
@@ -32,78 +30,14 @@ fn validate_command(command: String) -> u32 {
 fn solve_problem(problem_number: u32){
     match problem_number {
         0 => panic!("There is no problem 0 in project Euler."),
-        1 => {
-            let now = Instant::now();
-            let solution = problems::problem_1::problem_1::answer();
-            let elapsed = now.elapsed();
-
-            pretty_print_solution(
-                problems::problem_1::problem_1::TITLE,
-                problems::problem_1::problem_1::DESCRIPTION,
-                problem_number,
-                solution,
-                elapsed,
-            );
-        },
-        2 => {
-            let now = Instant::now();
-            let solution = problems::problem_2::problem_2::answer();
-            let elapsed = now.elapsed();
-
-            pretty_print_solution(
-                problems::problem_2::problem_2::TITLE,
-                problems::problem_2::problem_2::DESCRIPTION,
-                problem_number,
-                solution,
-                elapsed,
-            );
-        },
-        5 => {
-            let now = Instant::now();
-            let solution = problems::problem_5::problem_5::answer();
-            let elapsed = now.elapsed();
-
-            pretty_print_solution(
-                problems::problem_5::problem_5::TITLE,
-                problems::problem_5::problem_5::DESCRIPTION,
-                problem_number,
-                solution,
-                elapsed,
-            );
-        },
-        6 => {
-            let now = Instant::now();
-            let solution = problems::problem_6::problem_6::answer();
-            let elapsed = now.elapsed();
-
-            pretty_print_solution(
-                problems::problem_6::problem_6::TITLE,
-                problems::problem_6::problem_6::DESCRIPTION,
-                problem_number,
-                solution,
-                elapsed,
-            );
-        },
-        12 => {
-            let now = Instant::now();
-            let solution = problems::problem_12::problem_12::answer();
-            let elapsed = now.elapsed();
-
-            pretty_print_solution(
-                problems::problem_12::problem_12::TITLE,
-                problems::problem_12::problem_12::DESCRIPTION,
-                problem_number,
-                solution as i32,
-                elapsed,
-            );
-        },
+        1 => problems::problem_1::problem_1::pretty_print_solution(),
+        2 => problems::problem_2::problem_2::pretty_print_solution(),
+        3 => problems::problem_3::problem_3::pretty_print_solution(),
+        5 => problems::problem_5::problem_5::pretty_print_solution(),
+        6 => problems::problem_6::problem_6::pretty_print_solution(),
+        7 => problems::problem_7::problem_7::pretty_print_solution(),
+        10 => problems::problem_10::problem_10::pretty_print_solution(),
+        12 => problems::problem_12::problem_12::pretty_print_solution(),
         _ => panic!("Problem {} is not solved yet", problem_number),
     };
-}
-
-fn pretty_print_solution(title: &str, description: &str, problem_number: u32, solution: i32, time: Duration) {
-    println!("Problem {} - {}", problem_number, title);
-    println!("Description: {}", description);
-    println!("Solution: {}", solution);
-    println!("Time: {:.2?}", time);
 }
