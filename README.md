@@ -15,6 +15,12 @@ and [here](#list-of-solution-with-execution-time) you can find a list of solutio
 
 ### Python
 
+To reproduce the results with Python, you first need to create a Conda environment with the correct packages. 
+To do so, run the following command from the root directory: (`project_euler`).
+```shell
+conda env create -f environment.yml
+```
+
 From the root directory (`project_euler`), execute the following command:
 ```shell
 % python python/main.py PROBLEM_NUMBER
