@@ -1,4 +1,6 @@
 import numpy as np
+from pathlib import Path
+from typing import Union
 
 
 class Problem8:
@@ -6,7 +8,10 @@ class Problem8:
     DESCRIPTION = "https://projecteuler.net/problem=8"
 
     def answer(self) -> int:
-        series = self.extract_series_from_text(path="files/problem_8.txt")
+        path_to_file = Path.cwd()
+        series = self.extract_series_from_text(
+            path=path_to_file / "files/problem_8.txt"
+        )
 
         greatest_product = float("-inf")
         for idx in range(0, len(series) - 13):
@@ -16,7 +21,7 @@ class Problem8:
         return greatest_product
 
     @staticmethod
-    def extract_series_from_text(path: str) -> np.ndarray:
+    def extract_series_from_text(path: Union[Path, str]) -> np.ndarray:
         with open(path) as file_txt:
             lines = [line.strip() for line in file_txt.readlines()]
 

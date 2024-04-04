@@ -15,7 +15,8 @@ class Problem33:
             numerator_second_digit = numerator % 10
             if numerator_second_digit > numerator_first_digit:
                 for denominator in range(
-                    numerator_second_digit * 10 + 1, numerator_second_digit * 10 + 10
+                    numerator_second_digit * 10 + 1,
+                    numerator_second_digit * 10 + 10,
                 ):
                     denominator_second_digit = denominator % 10
 

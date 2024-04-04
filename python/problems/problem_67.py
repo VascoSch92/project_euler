@@ -1,5 +1,6 @@
 from typing import List
 from python.utils.functions import max_path_sum_triangle
+from pathlib import Path
 
 
 class Problem67:
@@ -7,12 +8,15 @@ class Problem67:
     DESCRIPTION = "https://projecteuler.net/problem=67"
 
     def answer(self) -> int:
-        triangle = self.read_triangle_from_txt(path="files/problem_67.txt")
+        path_to_file = Path.cwd()
+        triangle = self.read_triangle_from_txt(
+            path=path_to_file / "files/problem_67.txt"
+        )
 
         return max_path_sum_triangle(triangle=triangle)
 
     @staticmethod
-    def read_triangle_from_txt(path: str) -> List[List[int]]:
+    def read_triangle_from_txt(path: Path) -> List[List[int]]:
         with open(path) as file_txt:
             triangle = []
             for line in file_txt.readlines():

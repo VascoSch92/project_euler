@@ -12,12 +12,12 @@ class Problem45:
         index = 286
 
         while True:
-            triangular_number = self.T(index=index)
+            triangular_number = self.triangular_number(index=index)
             if is_a_pentagonal_number(
                 number=triangular_number
             ) and is_a_hexagonal_number(number=triangular_number):
                 return triangular_number
             index += 1
 
-    def T(self, index: int) -> int:
+    def triangular_number(self, index: int) -> int:
         return index * (3 * index - 1) // 2

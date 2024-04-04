@@ -6,13 +6,8 @@ class Problem65:
     DESCRIPTION = "https://projecteuler.net/problem=65"
 
     def answer(self) -> int:
-        numerator_i_1 = 1
-        numerator_i = 2
-        quotient_i = 1
-
-        convergent = 1
-        step = 1
-        period = 2
+        numerator_i_1, numerator_i, quotient_i = 1, 2, 1
+        convergent, step, period = 1, 1, 2
 
         while convergent < 100:
             numerator_i, numerator_i_1 = (

@@ -29,8 +29,12 @@ def solve(problem_number: int) -> None:
     try:
         problem_module = importlib.import_module(f"problems.problem_{problem_number}")
         problem_class = getattr(problem_module, f"Problem{problem_number}")
-    except ImportError:
-        print(f"Problem {problem_number} is not solved yet!")
+    except ImportError as e:
+        print(f"Stacktrace: {e} \n")
+        print(
+            f"It can be that problem {problem_number} is not solved yet! \n"
+            "For more information, see the above stacktrace."
+        )
     else:
         Problem = problem_class()
         execution_time, solution = _solve(problem=Problem)

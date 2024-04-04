@@ -3,6 +3,7 @@ from python.utils.functions import (
     alphabetic_score,
     is_a_triangular_number,
 )
+from pathlib import Path
 
 
 class Problem42:
@@ -11,8 +12,8 @@ class Problem42:
 
     def answer(self) -> int:
         triangle_words = 0
-
-        names = self.extract_names_from_text(path="files/problem_42.txt")
+        path_to_file = Path.cwd()
+        names = self.extract_names_from_text(path=path_to_file / "files/problem_42.txt")
 
         for name in names:
             if is_a_triangular_number(number=alphabetic_score(word=name)):
@@ -20,7 +21,7 @@ class Problem42:
         return triangle_words
 
     @staticmethod
-    def extract_names_from_text(path: str) -> List[str]:
+    def extract_names_from_text(path: Path) -> List[str]:
         with open(path) as file_txt:
             names = []
             for line in file_txt.readlines():

@@ -1,4 +1,5 @@
 import numpy as np
+from pathlib import Path
 
 
 class Problem11:
@@ -6,7 +7,8 @@ class Problem11:
     DESCRIPTION = "https://projecteuler.net/problem=11"
 
     def answer(self) -> int:
-        grid = self.read_grid_from_txt(path="files/problem_11.txt")
+        path_to_file = Path.cwd()
+        grid = self.read_grid_from_txt(path=path_to_file / "files/problem_11.txt")
 
         max_prod = float("-inf")
         for idx_row in range(0, 16):
@@ -17,7 +19,7 @@ class Problem11:
         return max_prod
 
     @staticmethod
-    def read_grid_from_txt(path: str) -> np.ndarray:
+    def read_grid_from_txt(path: Path) -> np.ndarray:
         with open(path) as file_txt:
             grid = []
             for line in file_txt.readlines():
