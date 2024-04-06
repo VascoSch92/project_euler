@@ -36,6 +36,7 @@ fn solve_problem(problem_number: u32){
         5 => problems::problem_5::problem_5::pretty_print_solution(),
         6 => problems::problem_6::problem_6::pretty_print_solution(),
         7 => problems::problem_7::problem_7::pretty_print_solution(),
+        9 => problems::problem_9::problem_9::pretty_print_solution(),
         10 => problems::problem_10::problem_10::pretty_print_solution(),
         12 => problems::problem_12::problem_12::pretty_print_solution(),
         44 => problems::problem_44::problem_44::pretty_print_solution(),

@@ -69,8 +69,8 @@ Time: 2.13µs
 | 6              | Sum square difference                 | 25_164_150      | 279ms       | 1.33µs    |
 | 7              | 10001st prime                         | 104_743         | 65ms        | 8.23ms    |
 | 8              | Largest product in a series           | 23_514_624_000  | 290ms       |
-| 9              | Special Pythagorean triplet           | 31_875_000      | 92ms        |
-| 10             | Summation of primes                   | 142_913_828_922 | 2_975ms     | 169.85ms  |
+| 9              | Special Pythagorean triplet           | 31_875_000      | 92ms        | 588.00µs   |
+| 10             | Summation of primes                   | 142_913_828_922 | 2_975ms     | 169.85ms   |
 | 11             | Largest product in a grid             | 70_600_674      | 300ms       |
 | 12             | Highly divisible triangular number    | 76_576_500      | 3_000ms     | 301.85ms  |
 | 13             | Large sum                             | 5_537_376_230   | 283ms       |
