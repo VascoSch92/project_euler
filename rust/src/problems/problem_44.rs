@@ -33,7 +33,4 @@ pub mod problem_44 {
         println!("Solution: {}", solution);
         println!("Time: {:.2?}", elapsed);
     }
-
-
-
 }
