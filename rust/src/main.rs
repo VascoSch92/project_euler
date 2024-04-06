@@ -40,6 +40,7 @@ fn solve_problem(problem_number: u32){
         10 => problems::problem_10::problem_10::pretty_print_solution(),
         12 => problems::problem_12::problem_12::pretty_print_solution(),
         44 => problems::problem_44::problem_44::pretty_print_solution(),
+        836 => problems::problem_836::problem_836::pretty_print_solution(),
         _ => panic!("Problem {} is not solved yet", problem_number),
     };
 }

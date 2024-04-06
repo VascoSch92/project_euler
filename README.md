@@ -119,4 +119,4 @@ Time: 2.13µs
 | 97             | Large Non-Marsenne Prime              | 8_739_992_577   | 879ms       |
 | 99             | Largest Exponential                   | 709             | 6ms         |
 | 145            | Reversible Numbers                    | 608_720         | 3ms         |
-| 836            | A Bold proposition                    | aprilfoolsjoke  | 0.24ms      |
+| 836            | A Bold proposition                    | aprilfoolsjoke  | 0.24ms      | 167.00ns   |
