@@ -59,20 +59,20 @@ Time: 2.13µs
 
 ## List of solution with execution time
 
-| Problem Number | Problem Title                         | Solution        | Python Time | Rust Time |
-|----------------|---------------------------------------|-----------------|-------------|-----------|
-| 1              | Multiples of 3 and 5                  | 233_168         | 0.36ms      | 2.13µs    |
-| 2              | Even Fibonacci number                 | 4_613_732       | 0.25ms      | 125ns     |
-| 3              | Largest prime factor                  | 6_857           | 38ms        | 2.07ms    |
+| Problem Number | Problem Title                         | Solution        | Python Time | Rust Time  |
+|----------------|---------------------------------------|-----------------|-------------|------------|
+| 1              | Multiples of 3 and 5                  | 233_168         | 0.36ms      | 2.13µs     |
+| 2              | Even Fibonacci number                 | 4_613_732       | 0.25ms      | 125ns      |
+| 3              | Largest prime factor                  | 6_857           | 38ms        | 2.07ms     |
 | 4              | Largest palindrome product            | 906_609         | 290ms       |
-| 5              | Smallest multiple                     | 232_792_560     | 0.23ms      | 334ns     |
-| 6              | Sum square difference                 | 25_164_150      | 279ms       | 1.33µs    |
-| 7              | 10001st prime                         | 104_743         | 65ms        | 8.23ms    |
+| 5              | Smallest multiple                     | 232_792_560     | 0.23ms      | 334ns      |
+| 6              | Sum square difference                 | 25_164_150      | 279ms       | 1.33µs     |
+| 7              | 10001st prime                         | 104_743         | 65ms        | 8.23ms     |
 | 8              | Largest product in a series           | 23_514_624_000  | 290ms       |
 | 9              | Special Pythagorean triplet           | 31_875_000      | 92ms        | 588.00µs   |
 | 10             | Summation of primes                   | 142_913_828_922 | 2_975ms     | 169.85ms   |
 | 11             | Largest product in a grid             | 70_600_674      | 300ms       |
-| 12             | Highly divisible triangular number    | 76_576_500      | 3_000ms     | 301.85ms  |
+| 12             | Highly divisible triangular number    | 76_576_500      | 3_000ms     | 301.85ms   |
 | 13             | Large sum                             | 5_537_376_230   | 283ms       |
 | 14             | Longest Collatz sequence              | 837_799         | 1_692ms     |
 | 15             | Lattice paths                         | 137_846_528_820 | 2ms         |
@@ -100,7 +100,7 @@ Time: 2.13µs
 | 40             | Champernowne's constant               | 210             | 88ms        |
 | 41             | Pandigital prime                      | 7_652_413       | 32ms        |
 | 42             | Coded triangle numbers                | 162             | 9ms         |
-| 44             | Pentagon numbers                      | 5_482_660       | 1_475ms     | 11.36ms   |
+| 44             | Pentagon numbers                      | 5_482_660       | 1_475ms     | 11.36ms    |
 | 45             | Triangular, pentagonal, and hexagonal | 1_533_776_805   | 37ms        |
 | 48             | Self powers                           | 9_110_846_700   | 52ms        |
 | 52             | Permuted Multiples                    | 142857          | 103ms       |
