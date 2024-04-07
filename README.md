@@ -64,7 +64,7 @@ Time: 2.13µs
 | 1              | Multiples of 3 and 5                  | 233_168         | 0.36ms      | 2.13µs     |
 | 2              | Even Fibonacci number                 | 4_613_732       | 0.25ms      | 125ns      |
 | 3              | Largest prime factor                  | 6_857           | 38ms        | 2.07ms     |
-| 4              | Largest palindrome product            | 906_609         | 290ms       |
+| 4              | Largest palindrome product            | 906_609         | 290ms       | 53ms       | 
 | 5              | Smallest multiple                     | 232_792_560     | 0.23ms      | 334ns      |
 | 6              | Sum square difference                 | 25_164_150      | 279ms       | 1.33µs     |
 | 7              | 10001st prime                         | 104_743         | 65ms        | 8.23ms     |
