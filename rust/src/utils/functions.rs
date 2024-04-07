@@ -1,5 +1,27 @@
 pub mod functions_u32 {
 
+    pub fn is_palindrome(number: u32) -> bool {
+        let number_as_string: String = number.to_string();
+
+        let length_number_as_string: usize = number_as_string.len();
+        let mut n: usize = 0;
+        if length_number_as_string % 2 == 0 {
+            n = number_as_string.len() / 2;
+        } else {
+            n = (number_as_string.len() - 1 ) / 2;
+        }
+
+        for i in 0..n {
+            let left_char = number_as_string.chars().nth(i).unwrap();
+            let right_char = number_as_string.chars().nth(length_number_as_string-i-1).unwrap();
+
+            if left_char != right_char {
+                return false;
+            }
+        }
+        true
+    }
+
     pub fn is_pentagonal(number: &u32) -> bool {
         let n: f32 = *number as f32;
         let index: f32 = (1. + (1. + 24. * n).sqrt()) / 6.;

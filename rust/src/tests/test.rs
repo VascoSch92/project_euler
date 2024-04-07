@@ -1,18 +1,30 @@
 #[cfg(test)]
 pub mod tests {
     use rstest::rstest;
+    use crate::utils::functions::functions_u32::is_palindrome;
     use crate::utils::functions::functions_u32::is_pentagonal;
     use crate::utils::functions::functions_u32::is_prime;
     use crate::utils::functions::functions_u32::number_of_divisors;
     use crate::utils::functions::functions_u32::pentagonal_number;
     use crate::utils::functions::functions_u32::triangular_number;
 
+     #[rstest]
+    #[case(1, true)]
+    #[case(3, true)]
+    #[case(92, false)]
+    #[case(112211, true)]
+    #[case(1129211, true)]
+    #[case(1234, false)]
+    fn test_is_palindrome(#[case] input: u32, #[case] expected: bool) {
+        assert_eq!(expected, is_palindrome(input));
+    }
+
     #[rstest]
     #[case(1, true)]
     #[case(3, false)]
     #[case(92, true)]
     #[case(14950, true)]
-    fn test_is_a_pentagonal_number(#[case] input: u32, #[case] expected: bool) {
+    fn test_is_pentagonal(#[case] input: u32, #[case] expected: bool) {
         assert_eq!(expected, is_pentagonal(&input));
     }
 
