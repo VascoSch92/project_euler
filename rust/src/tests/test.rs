@@ -8,7 +8,7 @@ pub mod tests {
     use crate::utils::functions::functions_u32::pentagonal_number;
     use crate::utils::functions::functions_u32::triangular_number;
 
-     #[rstest]
+    #[rstest]
     #[case(1, true)]
     #[case(3, true)]
     #[case(92, false)]
